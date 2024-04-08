@@ -1,0 +1,19 @@
+/* Full height and no margins for the body */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+}
+
+/* Center content vertically and horizontally */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase; /* Ensures text is in all caps */
+}
